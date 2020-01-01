@@ -6,7 +6,6 @@ def most_common_characters(s):
     for char, count in chars.most_common(3):
         print(char, count)
 
-# DefaultDict
 n, m = map(int, input().split())
 d = defaultdict(list)
 for i in range(n):
